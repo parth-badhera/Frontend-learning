@@ -1,0 +1,77 @@
+<body>
+
+    <style>
+
+        .flexbox {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        margin-bottom: 100px;
+        }
+
+        .column1 {
+        background-color: lightpink;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .item1 {
+        background-color: black;
+        color: white;
+        }
+
+        .column2 {
+        background-color: lightblue;
+        width: 200px;
+        }
+
+    </style>
+
+
+    <div class="flexbox">
+      <div class="column1">
+        <div class="item1">item1</div>
+      </div>
+      <div class="column2"></div>
+    </div>
+
+
+
+    <style>
+        .outer{
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+        }
+
+        .columnn1{
+            background-color: lightgrey;
+            width: 100px;
+            display: flex   ;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .columnn2{
+            background-color: lightslategray;
+            width: 200px;
+        }
+
+    </style>
+
+
+
+
+
+
+
+    <div class="outer">
+        <div class="columnn1">
+            <p>item</p>
+        </div>
+        <div class="columnn2"></div>
+    </div>
+</body>

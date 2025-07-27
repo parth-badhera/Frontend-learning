@@ -1,0 +1,118 @@
+<body>
+    <style>
+        p{
+            font-family: arial;
+            margin: 0;
+        }
+        div{
+            font-family: arial;
+        }
+        .outer{
+            display: flex;
+            width: 380px;
+              
+        }
+
+        .profile-pic-container{
+            width: 60px;
+            display: flex;
+   
+        }
+
+        .profile-pic{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            object-fit: cover;
+            align-items: center;
+        }
+
+        .all-details{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .admin-id{
+            font-weight: bold;
+            font-size: 13px;
+            padding-top: 5px;
+            
+        }
+        .location{
+            font-weight: 100;
+            color: gray;
+        }
+
+        .whole-content{
+            font-size: 14px;
+        }
+
+        .link-div{
+            display: flex;
+            align-items: center;
+            border-width: 1px;
+            border-style: solid;
+            background-color: lightgray;
+            border-color: lightgray;
+            margin-top: 12px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .blank-space{
+            width: 100px;
+            
+            background-color: lightgray;
+            
+            
+        }
+
+        .video-detail{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            
+            overflow: hidden;
+            
+        }
+
+        .video-url{
+            font-size: 13px;
+            color: gray;
+            padding-top: 10px;
+            padding-left: 5px;
+            padding-bottom: 2px;
+        }
+
+        .video-title{
+            font-size: 14px;
+            margin-left: 5px;
+            line-height: 17px;
+            padding-bottom: 10px;
+        }
+
+    </style>
+
+
+
+    <div class="outer">
+        <div class="profile-pic-container">
+            <img src="naruto.jpg" class="profile-pic">
+        </div>
+        <div class="all-details">
+            <div>
+                <p class="admin-id">parth <span class="location">@parth</span></p>
+            </div>
+            <div><p class="whole-content">Hey everyone! Our new vlog just dropped. Check it out on YouTube — link below! </p></div>
+            <div class="link-div">
+                <div class="blank-space"></div>
+                <div class="video-detail">
+                    <div><p class="video-url">youtube.com</p></div>
+                    <div><p class="video-title">Another day of learning frontend</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

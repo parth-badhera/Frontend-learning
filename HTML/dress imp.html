@@ -1,0 +1,62 @@
+<body style="height: 100000px;">
+    <style>
+        .dress{
+
+            position: relative;
+            display: inline-block;
+            margin-bottom: 100px;
+        }
+        .shirt{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .tag{
+            position: absolute;
+            top: 10px;
+            right: 0;
+            background-color: black;
+            color: white;
+        }
+
+        .bottom-overlay{
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.8);
+            left: 0;
+            right: 0;
+            height: 70px;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .add-to-cart-button {
+            background-color: white;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+
+    
+    <div class="dress">
+        <img src="shirt.jpg" class="shirt">
+        <div class="tag">20% OFF</div>
+    </div>
+    
+
+    
+    <div class="dress">
+        <img src="shirt.jpg" class="shirt">
+        <div class="tag">20% OFF</div>
+        <div class="bottom-overlay">
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    
+</body>
